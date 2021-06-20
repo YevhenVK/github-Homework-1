@@ -135,12 +135,14 @@ header a {
 
 .description {
   display: flex;
+  /* раздвигаем между собою столбцы текста: слева и справа */
   justify-content: space-between;
 }
 
 .description p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  /* Выравнивание текста по ширине */
   text-align: justify;
   line-height: 1.62em;
 }
